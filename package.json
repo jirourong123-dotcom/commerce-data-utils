@@ -1,0 +1,15 @@
+{
+  "name": "commerce-data-utils",
+  "version": "0.1.0",
+  "description": "Small dependency-free commerce data utilities with synthetic examples",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "main": "index.js",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "demo": "node examples/demo.js",
+    "check:public": "node tools/check-public-tree.js"
+  }
+}
