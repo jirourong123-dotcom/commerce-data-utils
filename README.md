@@ -1,6 +1,6 @@
 # Commerce Data Utils
 
-轻量、零第三方依赖的 CommonJS 数据处理工具。当前是待发布审核的独立副本，**不是完整业务后台，也不能替代原私有项目的测试和部署**。
+轻量、零第三方依赖的 CommonJS 数据处理工具。这是独立的通用代码副本，**不是完整业务后台，也不能替代原私有项目的测试和部署**。
 
 ## 运行
 
@@ -42,8 +42,8 @@ const count = availability.calculateCatalogAvailableQuantityFromDetails({
 
 GitHub 对公开仓库的标准 GitHub-hosted Actions 运行提供免费分钟使用，但并发、时长、存储等仍有限制；这不代表 Codespaces、Copilot 或所有服务无限免费。新副本不会自动解除原私有仓库的额度限制。参见 [Actions 计费](https://docs.github.com/en/billing/concepts/product-billing/github-actions) 和 [Actions 限制](https://docs.github.com/en/actions/reference/limits)。
 
-## 发布状态
+## 许可证与范围
 
-尚未公开上传。当前 `license: UNLICENSED`，未授予开源许可；待所有者确认许可证及代码再分发权利后再发布。`private: true` 防止误发到 npm，不控制 GitHub 仓库可见性。
+本项目采用 [MIT 许可证](LICENSE)，版权所有者为 jirourong123-dotcom。`private: true` 防止误发到 npm，不控制 GitHub 仓库可见性。
 
 已排除原 Git 历史、内部文档、运维脚本、业务截图、导出表格和生产配置。见 PROVENANCE.md。自动扫描只能发现部分风险，发布前仍须人工检查最终文件与提交。

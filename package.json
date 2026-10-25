@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Small dependency-free commerce data utilities with synthetic examples",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "type": "commonjs",
   "main": "index.js",
   "engines": { "node": ">=22" },

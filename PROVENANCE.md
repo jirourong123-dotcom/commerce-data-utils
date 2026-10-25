@@ -4,4 +4,4 @@ Eight source modules were extracted from an owner-controlled application snapsho
 
 Tests, example, package metadata, documentation and CI were newly prepared for this candidate. All fixtures are fictional. No upstream Git commits, authors, logs, attachments or deployment configuration were imported.
 
-The modules use only Node.js built-in facilities. No third-party package implementation is bundled. This is a technical provenance statement, not a certification of copyright ownership. Publication and license selection require the owner's review.
+The modules use only Node.js built-in facilities. No third-party package implementation is bundled. The owner confirmed redistribution rights and authorized publication under the MIT License. This records the owner's authorization rather than an independent legal certification of ownership. See LICENSE.

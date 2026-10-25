@@ -5,7 +5,7 @@ const { isBuiltin } = require('node:module');
 
 const allowed = new Set([
   '.github/workflows/ci.yml', '.gitignore', 'package.json', 'index.js',
-  'README.md', 'PROVENANCE.md', 'SECURITY.md', 'CONTRIBUTING.md',
+  'README.md', 'PROVENANCE.md', 'SECURITY.md', 'CONTRIBUTING.md', 'LICENSE',
   'src/availability.js', 'src/materials.js', 'src/references.js', 'src/currency.js',
   'src/pagination.js', 'src/businessDate.js', 'src/fence.js', 'src/encoding.js',
   'tests/utilities.test.js', 'tests/public-tree.test.js', 'examples/demo.js',
